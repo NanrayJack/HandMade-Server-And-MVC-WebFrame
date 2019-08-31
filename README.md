@@ -31,15 +31,11 @@
 功能演示
 ---
 
-# HTTP + MVC / 本地开发演示:
+- HTTP + MVC / 本地开发演示:
+    - 请求报文解析
+        - ![](img-show/request.gif)
+    - 响应报文解析
+        - ![](img-show/response.gif)
 
-## 请求报文解析
-![](img-show/request.gif)
-
-## 响应报文解析
-![](img-show/response.gif)
-
-## 权限验证装饰器
-![](img-show/privilege.gif)
-
-    - ![](img-show/myserver-Gunicorn.gif)
+    - 权限验证装饰器
+        - ![](img-show/privilege.gif)
