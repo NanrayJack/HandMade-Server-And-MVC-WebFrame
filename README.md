@@ -4,6 +4,7 @@
 
 简介
 ---
+
 - SERVER:
     - 起点是一个 Socket 链接
     - 面向的请求协议经过了一次升级:
@@ -26,6 +27,19 @@
     - C: 
         - 用字典映射 url-route, 用多表 update 实现类似 flask 蓝图管理, 利用了 Python 的高阶函数
             
+            
 功能演示
 ---
+
+# HTTP + MVC / 本地开发演示:
+
+## 请求报文解析
+![](img-show/request.gif)
+
+## 响应报文解析
+![](img-show/response.gif)
+
+## 权限验证装饰器
+![](img-show/privilege.gif)
+
     - ![](img-show/myserver-Gunicorn.gif)
