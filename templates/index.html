@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+    <style>
+        .myserver-default {
+            border: lightblue 1px dashed;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello {{username}}</h1>
+    <a href="/login/view">Login</a>
+    <a href="/register/view">Register</a>
+    <a href="/weibo/index">Weibo</a>
+    <br>
+    <br>
+    <div id="id-nginx" class="myserver-default">
+        <!-- for nginx -->
+        <span>Nginx 显示</span>
+        <img src="/static/doge.gif"/>
+        <img src="/static/doge1.gif"/>
+        <img src="/static/doge2.gif"/>
+    </div>
+    <div id="id-original-server" class="myserver-default">
+        <!-- for original server -->
+        <span>本地开发显示</span>
+        <img src="/static?file=doge.gif"/>
+        <img src="/static?file=doge1.gif"/>
+        <img src="/static?file=doge2.gif"/>
+    </div>
+</body>
+</html>

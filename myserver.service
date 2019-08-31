@@ -1,0 +1,12 @@
+[Unit]
+Description=myserver
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/var/www/myserver
+ExecStart=/usr/local/bin/gunicorn WSGI_server:app --bind 127.0.0.1:3000
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
