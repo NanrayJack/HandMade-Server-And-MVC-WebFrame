@@ -1,4 +1,4 @@
-基于原始 Socket 连接, 从无到有打造 Web 服务器 + 自制 MVC web 框架
+基于原始 Socket 连接, 从无到有打造 HTTP & WSGI Web 服务器---自制 MVC Web 框架---基于自制框架实现的 demo app 项目
 ===
 
 
@@ -32,10 +32,11 @@
 ---
 
 - **HTTP + MVC / 本地开发演示:**
-    - 请求报文解析
+    - 请求报文解析:
         - ![](img-show/request.gif)
-    - 响应报文解析
+    - 响应报文解析:
         - ![](img-show/response.gif)
-
-    - 权限验证装饰器
+    - 权限验证装饰器:
         - ![](img-show/privilege.gif)
+    - 基于自制 MVC 框架开发的 demo Weibo:
+        - ![](img-show/myserver-dev.gif)
