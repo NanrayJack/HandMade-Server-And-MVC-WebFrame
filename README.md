@@ -24,7 +24,7 @@
             - 具体 Model 如 User, Weibo 继承基类
     - View:
         - 利用 Jinja2 渲染
-    - C: 
+    - Control: 
         - 用字典映射 url-route, 用多表 update 实现类似 flask 蓝图管理, 利用了 Python 的高阶函数
             
             
